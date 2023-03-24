@@ -3,11 +3,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Interior Decoration Prototype</title>
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <section class="heurio">
+    <section class="heurio relative">
       <nav
         class="mx-auto container flex items-center space-x-20 py-5 font-semibold text-white"
       >
@@ -43,6 +43,38 @@
         <button class="-ml-9 z-50">
           <img src="../public/icons/btn-search.png" class="h-8 w-8" />
         </button>
+      </div>
+
+      <div class="absolute right-32 bottom-56">
+        <div
+          class="border border-white bg-gray-100 bg-opacity-10 backdrop-blur-sm space-y-1 p-3 text-white rounded-3xl mb-3"
+        >
+          <p class="font-semibold text-xl">$65.00</p>
+          <p class="text-sm font-medium">Dracena Fragnas</p>
+        </div>
+        <div class="flex justify-center">
+          <div
+            class="h-10 w-10 flex justify-center items-center border border-white bg-gray-100 bg-opacity-5 backdrop-blur-sm rounded-full"
+          >
+            <span class="h-3 w-3 rounded-full bg-white"> </span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute left-32 border border-white bg-gray-100 bg-opacity-10 backdrop-blur-sm rounded-3xl text-white space-y-1 px-3 py-1"
+      >
+        <img src="" />
+        <h5 class="text-lg font-semibold">Milan Jack</h5>
+        <div class="flex gap-1 text-xs">
+          <p>home seller, USA</p>
+          <p>4.9 rating</p>
+        </div>
+        <div class="text-xs">
+          <p>Lorem ipsum dolor sit amet,</p>
+          <p>consectetur adipisicing elit.</p>
+          <p>Porro beatae error laborum.</p>
+        </div>
       </div>
     </section>
 
@@ -147,236 +179,265 @@
         /></span>
       </div>
 
-      <section class="mt-8 flex gap-6 overflow-x-scroll pb-4">
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product1.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product2.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
+      <section class="mt-8 relative">
+        <!-- <div
+          class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-white via-transparent to-white opacity-80"
+        ></div> -->
+        <div class="flex gap-6 overflow-x-scroll pb-4">
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product1.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product3.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product1.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product2.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product2.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product3.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product3.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product1.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product1.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="rounded-3xl border border-gray-50 shadow-md card">
-          <img src="../public/images/product2.png" class="rounded-t-3xl p-1" />
-          <div class="space-y-4 pt-3 pb-9 px-8">
-            <div class="space-y-2">
-              <article class="flex justify-between items-center">
-                <h1>Modern Picture</h1>
-                <img src="../public/icons/shopping-cart.png" />
-              </article>
-              <h3>$15.00</h3>
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product2.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
             </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
-              <span
-                class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
-              >
-                Label
-              </span>
+          </div>
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product3.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product1.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-3xl border border-gray-50 shadow-md card">
+            <img
+              src="../public/images/product2.png"
+              class="rounded-t-3xl p-1"
+            />
+            <div class="space-y-4 pt-3 pb-9 px-8">
+              <div class="space-y-2">
+                <article class="flex justify-between items-center">
+                  <h1>Modern Picture</h1>
+                  <img src="../public/icons/shopping-cart.png" />
+                </article>
+                <h3>$15.00</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+                <span
+                  class="border border-dimbrown px-2 py-1 bg-slate-50 rounded-3xl"
+                >
+                  Label
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -420,7 +481,7 @@
 
     <footer class="mx-auto container">
       <div class="flex items-center py-6 gap-20">
-        <div class="card relative">
+        <div class="w-1/3 relative">
           <input
             type="email"
             name="email"

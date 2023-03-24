@@ -7,9 +7,13 @@ body{
 }
 .heurio{
     @apply w-full h-[93vh];
-    background: url('../public/images/cushion.jpeg') no-repeat;
+    background: linear-gradient(to bottom, transparent 70%, white 100%), url('../public/images/cushion.jpeg') no-repeat;
     background-size: 100vw 100vh;
     background-position: bottom;
+}
+.gradient{
+    background-color: linear-gradient(to right, white, transparent  30%, white 70%);
+    @apply absolute top-0 left-0 w-full h-full z-0 opacity-80;
 }
 hr{
     color: black;
