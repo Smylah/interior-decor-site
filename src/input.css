@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: sans-serif
+}
+.heurio{
+    @apply w-full h-[93vh];
+    background: url('../public/images/cushion.jpeg') no-repeat;
+    background-size: 100vw 100vh;
+    background-position: bottom;
+}
+hr{
+    color: black;
+}
+.card{
+    min-width: 256px;
+}
+.width{
+    width: 1100px;
+}

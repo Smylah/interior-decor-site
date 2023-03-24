@@ -1,0 +1,18 @@
+{
+  "name": "interior-decor-site",
+  "version": "1.0.0",
+  "description": "interior decoration site prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "interior",
+    "decoration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
